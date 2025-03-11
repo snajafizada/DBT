@@ -40,10 +40,11 @@ models:
   my_new_project:
     # Applies to all files under models/staging/
     staging:
-      materialized: table
+        materialized: table
     # Applies to all files under models/prep/
     prep:
-      materialized: table
+        materialized: table
     # Applies to all files under models/mart/
     mart:
-      materialized: table
+        materialized: table
+        
