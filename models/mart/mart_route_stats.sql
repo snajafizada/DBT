@@ -17,8 +17,8 @@ with flight_route_stats as (
 )
 select o.city as origin_city,
         d.city as dest_city,
-        o.name as origin_name,
-        d.name as dest_name,
+        o.airport_name as origin_name,
+        d.airport_name as dest_name,
         o.country as origin_country,
         d.country as dest_country,
         f.*
